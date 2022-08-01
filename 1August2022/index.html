@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- <script>
+        alert("hello i am alert")
+    </script> -->
+</head>
+
+<body>
+    <p id="p1">hello p</p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+
+    <script>
+        var price1 = Number("5");
+        var price2 = 10;
+        var total = price1 + price2;
+
+        var firstname = 'John';
+        var lastname = 'Doe';
+
+        document.getElementById('p1').innerHTML = 'price is ' + total;
+        document.getElementById('p2').innerHTML = firstname + " " + lastname;
+
+        // Object:
+        let person = {
+            firstname: 'John',
+            lastname: 'Doe',
+            age: 30,
+            eyecolor: "blue",
+        };
+
+        document.getElementById('p3').innerHTML = "Name is " + person.firstname + " and age is " + person.age
+    </script>
+</body>
+
+</html>
