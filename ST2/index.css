@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(79, 166, 204, 0.981);
+}
+
+h2 {
+    color: rgb(24, 24, 56);
+    text-align: center;
+}
+
+#input_number {
+    width: 550px;
+    height: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.792);
+}
+
+#button {
+    background-color: rgb(196, 73, 114);
+    width: 350px;
+    height: 40px;
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#square {
+    margin-left: 50%;
+    margin-top: 5%;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(42, 149, 165);
+        margin: auto;
+    }
+}
