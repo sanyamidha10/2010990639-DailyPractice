@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <button onclick="f1()"></button>
+    <script>
+        function f1() {
+            console.log("first");
+
+            setTimeout(function second() {
+                console.log("Time Out");
+            }, 0000);
+
+            console.log("Final!");
+        }
+    </script>
+</body>
+
+</html>
